@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+  }
+  
+  
+  .nav-menu {
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #00AEFF;
+  }
+  .nav-menu p {
+    color: #181818;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  h1 {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    color: #181818;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.direita {
+    margin-top: 90px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 400px;
+}
+.esquerda{
+    margin-top: 90px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #EBE9EA;
+}
+.esquerda img{
+    width: auto;
+    height: 400px;
+    background-color: #EBE9EA;
+}
+h2{
+    color: #181818;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+h3{
+    color: #181818;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: auto;
+  width: 600px;
+  cursor: pointer;
+}
+.card{
+  background-color: #ebe9ea;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.card img{
+  width: auto;
+  height: 70px;
+  border-radius: 2px;
+  
+}
+
+.card:hover{
+  background-color: white;
+  color: white;
+  transition: 0.3s;
+}
+
+.buttons-XL{
+  font-size: 0;
+  border-radius: 20px;
+  background-color: #ebe9ea;
+  width: 320px;
+}
+
+.buttons-tamanho{
+    width: 80px;
+    height: 60px;
+    background-color: #ebe9ea;
+    border: none;
+    border-radius: 20px;
+    color: #181818;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    margin: 0;
+    padding: 0%;
+    gap: 0;
+}
+
+.buttons-tamanho:hover{
+    background-color: #00AEFF;
+    color: white;
+    transition: 0.3s;
+}
+
+.buttons-comadd{
+  display: flex;
+  gap: 30px;
+  width: 600px;
+  height: auto;
+}
+
+.buttons-comprar {
+    width: 320px;
+    height: 60px;
+    background-color: #00aeff00;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+.buttons-comprar:hover{
+    background-color: #00AEFF;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    border: none;
+}
+.buttons-adicionar{
+    width: 320px;
+    height: 60px;
+    background-color: #181818;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.buttons-adicionar:hover{
+  background-color: #00AEFF;
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+footer{
+    margin-top: 100px;
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00AEFF;
+  
+}

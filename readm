@@ -1,0 +1,24 @@
+      <h3>$129.97</h3>
+</section>
+
+  </body>
+
+        
+    <p>Size</p>
+    <div class="tamanhos">
+        <button class="tamanho">US 6</button>
+        <button class="tamanho">US 7</button>
+        <button class="tamanho">US 8</button>
+        <button class="tamanho">US 9</button>
+        <button class="tamanho">US 10</button>
+        <button class="tamanho">US 11</button>
+        <button class="tamanho">US 12</button>
+        </div>
+    <button class="comprar">Comprar</button>
+    <button class="favoritar">Favoritar</button>
+
+    <p>Shipping*</p>
+    <p>To get accurate shipping information <a href="#">Edit Location</a></p>
+
+
+</html>
